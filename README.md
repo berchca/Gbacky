@@ -46,12 +46,12 @@ Click **Save**, and you're ready to go.
 -   **Empty Vault:** This will delete the contents of the mounted vault. Useful for reclaiming space after you've removed directories from your backup list.
 -   **Settings:** Click the gear icon at any time to modify your configuration. (or CTRL-S)
 
-## Removal
-running the following command in a terminal:
+## Uninstall
+To uninstall the program (without removing configuration), run the following command in a terminal:
     ```bash
     sudo apt remove gbacky
     ```
-
+Configuration can be removed manually from ~/.config/Gbacky
 
 ## For Developers
 
