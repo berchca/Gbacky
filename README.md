@@ -4,7 +4,7 @@
 
 For simplicity and speed of a repetitious task, Gbacky runs automatically when the program is started.
 
-!Gbacky Screenshot <img width="1200" height="514" alt="Gbacky Screenshot" src="https://github.com/user-attachments/assets/ba85a4ee-7407-4cb0-b281-a654860ac435" />
+<img width="1200" height="514" alt="Gbacky Screenshot" src="https://github.com/user-attachments/assets/ba85a4ee-7407-4cb0-b281-a654860ac435" />
 
 
 ## Installation
@@ -21,7 +21,7 @@ For end users:
     ```
     This command will automatically install Gbacky and all of its required dependencies, **except Veracrypt**.
 3.  **Install VeraCrypt (if you haven't already).** Gbacky depends on VeraCrypt, but to ensure you get the latest version, it is recommended you install it directly from the official website:
-    https://veracrypt.io/en/Downloads.html (for English)
+    https://veracrypt.io/
 4.  **create a Veracrypt vault.** (as mentioned above, avoid making it excessively large).
 5.  **run it** The .deb file should have created an icon in your startup menu. The first time you run Gbacky, it will automatically open the settings window.
 
