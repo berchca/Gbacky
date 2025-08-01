@@ -1,0 +1,35 @@
+{
+    "CONFIG_VER": 1,
+    "GOOGLE_DRIVE_PATH": "/run/user/1000/gvfs/google-drive:host=gmail.com,user=someuser",
+    "GOOGLE_DRIVE_BACKUP_DIR": "Backups/somedir",
+    "AUTO_CLOSE_SECONDS": 5,
+    "WARN_ON_EXTERNAL_DIR": true,
+    "SHOW_DETAILS_ON_STARTUP": false,
+    "NETWORK_QUALITY": 0,
+    "AUTO_MOUNT_GDRIVE": true,
+    "AUTO_BACKUP_ON_START": true,
+    "AUTO_BACKUP_VAULT_IDS": [
+        "a1b2c3d4-e5f6-7890-1234-567890abcdef"
+    ],
+    "VAULT_PROFILES": [
+        {
+            "ID": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+            "NAME": "Work Documents",
+            "VERACRYPT_VAULT": "Documents/WorkVault.hc",
+            "BACKUP_DIRS": [
+                "Documents/Work",
+                "Projects/ClientA"
+            ]
+        },
+        {
+            "ID": "f0e9d8c7-b6a5-4321-fedc-ba9876543210",
+            "NAME": "Personal Photos",
+            "VERACRYPT_VAULT": "Pictures/PhotoVault.hc",
+            "BACKUP_DIRS": [
+                "Pictures/2023",
+                "Pictures/2024"
+            ]
+        }
+    ]
+}
+
