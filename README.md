@@ -53,6 +53,9 @@ To uninstall the program (without removing configuration), run the following com
     ```
 Configuration can be removed manually from ~/.config/Gbacky
 
+## Known Issues
+Release version of Gbacky has only been tested on my system, Linux Mint 21.3
+
 ## For Developers
 
 If you wish to run the application from the source code:
