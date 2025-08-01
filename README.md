@@ -1,6 +1,6 @@
 # Gbacky: Simple and Secure Offsite Backups for Linux
 
-**Gbacky** is a easy-to-use offsite backup utility for Debian-based Linux systems (read: Linux Mint and Ubuntu) that syncs your files to an encrypted VeraCrypt vault and then stores off-site on your Google Drive.
+**Gbacky** is a easy-to-use offsite backup utility for Debian-based Linux systems (read: Linux Mint and Ubuntu) that syncs your files to an encrypted VeraCrypt vault and then stores the vault on your Google Drive.
 
 For simplicity and speed of a repetitious task, Gbacky runs automatically when the program is started.
 
