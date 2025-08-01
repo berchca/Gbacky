@@ -9,7 +9,7 @@ For simplicity and speed of a repetitious task, Gbacky runs automatically when t
 
 ## Installation
 
-Gbacky requires Veracrypt and an existing Veracrypt vault somewhere in user's home directory. Since the entire vault will be copied each time the program is run, it is best to keep the size of the vault to a minimum, in regards to the size of the files you are backing up.
+Gbacky requires the VeraCrypt program and an existing VeraCrypt vault in your home directory.. Since the entire vault will be copied each time the program is run, it is best to keep the size of the vault to a minimum, relative to the size of the files you are backing up.
 
 Gbacky does not directly synchronize to Google Drive. Your Veracrypt vault will remain on your local filesystem and a copy will be written to Google Drive. 
 
@@ -22,7 +22,7 @@ For end users:
     This command will automatically install Gbacky and all of its required dependencies, **except Veracrypt**.
 3.  **Install VeraCrypt (if you haven't already).** Gbacky depends on VeraCrypt, but to ensure you get the latest version, it is recommended you install it directly from the official website:
     https://veracrypt.io/
-4.  **create a Veracrypt vault.** (as mentioned above, avoid making it excessively large).
+4.  **create a VeraCrypt vault.** (as mentioned above, avoid making it excessively large).
 5.  **run it** The .deb file should have created an icon in your startup menu. The first time you run Gbacky, it will automatically open the settings window.
 
 ## First-Time Setup
@@ -30,7 +30,7 @@ For end users:
 The first time you launch Gbacky, the **Settings** window will open automatically, as it needs to be configured. These are the most important options:
 
 1.  **VeraCrypt Vault:** Select an existing VeraCrypt vault file. Gbacky does not create vaults for you.
-2.  **Password:** Enter the password for your VeraCrypt vault. You can use the "Test" button to verify your credentials.
+2.  **Password:** Enter the password for your VeraCrypt vault. You can use the "Test" button to verify the password is correct.
 3.  **To Backup:** Click "Add Directories..." to select the files and folders you want to back up. These will be synced into the vault.
 4.  **GDrive Path:** Gbacky will try to "Detect..." your Google Drive mount point automatically. This is typically a path like `/run/user/1000/gvfs/google-drive:host=...`. 
 (untested: If the program finds multiple Google Drives, it should prompt you. If not, you'll have to add the path manually.)
@@ -42,7 +42,7 @@ Click **Save**, and you're ready to go.
 ## Usage
 
 -   **Main Screen:** The main window shows the status of the current backup. The backup will run automatically on startup.
--   **Mount / Unmount:** When the program is idle, you can quickly mount and ummount your Veracrypt vault for easy access.
+-   **Mount / Unmount:** When the program is idle, you can quickly mount and unmount your Veracrypt vault for easy access.
 -   **Empty Vault:** This will delete the contents of the mounted vault. Useful for reclaiming space after you've removed directories from your backup list.
 -   **Settings:** Click the gear icon at any time to modify your configuration. (or CTRL-S)
 
@@ -51,7 +51,7 @@ To uninstall the program (without removing configuration), run the following com
     ```bash
     sudo apt remove gbacky
     ```
-Configuration can be removed manually from ~/.config/Gbacky
+To remove the configuration, delete the files manually from ~/.config/Gbacky.
 
 ## Known Issues
 Release version of Gbacky has only been tested on my system, Linux Mint 21.3
@@ -92,7 +92,7 @@ To share your own version of Gbacky, the `package_deb.py` script will prepare th
     (Replace `VERSION` with the current version number).
 
 ## Development
-This program was developed by Brett James with the use of Gemini, with a little touch-up work by Claude Code.
+This program was developed by Brett James with the use of Gemini, and with some additional contributions from Claude Code.
 
 ## License
 
