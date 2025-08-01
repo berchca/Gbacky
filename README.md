@@ -9,9 +9,9 @@ For simplicity and speed of a repetitious task, Gbacky runs automatically when t
 
 ## Installation
 
-Gbacky requires Veracrypt and existing Veracrypt vault somewhere in user's home directory. Since the entire vault will be copied each time the program is run, it is best to keep the size of the vault to a minimum, in regards to the size of the files you are backing up.
+Gbacky requires Veracrypt and an existing Veracrypt vault somewhere in user's home directory. Since the entire vault will be copied each time the program is run, it is best to keep the size of the vault to a minimum, in regards to the size of the files you are backing up.
 
-Gbacky does not synchronize to Google Drive. Your Veracrypt vault will remain on your local filesystem and a copy will be written to Google Drive. 
+Gbacky does not directly synchronize to Google Drive. Your Veracrypt vault will remain on your local filesystem and a copy will be written to Google Drive. 
 
 For end users:
 1.  **Download the `.deb` file** from this page (link to be added). 
